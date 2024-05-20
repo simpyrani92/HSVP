@@ -1,0 +1,45 @@
+/* Add this CSS to your styles */
+.navbar {
+  background-color: #007BFF; /* Update with your preferred color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important; /* Update with your preferred text color */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Update with your preferred color */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Adjust spacing between menu items */
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #15ff00 !important; /* Update with your preferred hover color */
+}
+
+.dropdown-menu {
+  background-color: #fafbfd; /* Update with your preferred color */
+}
+
+.dropdown-item {
+  color: #141414 !important; /* Update with your preferred text color */
+}
+
+.dropdown-item:hover {
+  background-color: #0056b3; /* Update with your preferred hover color */
+}
+/* Update with preferred font styles */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Example: Increase font size for the brand */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}

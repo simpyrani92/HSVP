@@ -1,0 +1,69 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.card-body h1{
+    color: #0f79eb;
+    font-family:fantasy;
+}
+.font-highlight{
+    color: red;
+    font-style: italic;
+}
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-wrapper {
+    position: relative;
+}
+
+.propImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.list-inline {
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.property-type {
+    font-size: 16px;
+    color: #555;
+}
+
+.property-price {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.sell-rent {
+    font-size: 14px;
+    color: #6c757d;
+}

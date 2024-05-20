@@ -1,0 +1,8 @@
+<p>property-details works!</p>
+<p>Selected {{propertyId}}</p>
+<button class="btn btn-success" (click)="  onSelectNext()">Select Next Page</button><br><br>
+
+<button class="btn btn-success" routerLink="/propertydetails/1">1</button>
+<button class="btn btn-success" routerLink="/propertydetails/2">2</button>
+<button class="btn btn-success" routerLink="/propertydetails/3">3</button>
+<button class="btn btn-success" [routerLink]="['/propertydetails','4']">4</button>
