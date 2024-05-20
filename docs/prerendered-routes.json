@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/add-property",
+    "/propertyList",
+    "/rent-property",
+    "/user/login",
+    "/user/register"
+  ]
+}
